@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css?family=Cinzel");
+
+
+*{
+  font-family: Cinzel, serif;
+}
+
+/*Header*/
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-family: Cinzel, serif;
+  padding: 10px;
+  font-size: 15px;
+  transition: all 350ms linear 0s;
+}
+
+.nav-link:hover {
+  background: #f6b042;
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #533549;
+}
+
+.dropdown-item {
+  font-family: Cinzel, serif;
+  font-weight: bolder;
+  color: white;
+  font-size: 15px;
+}
+
+.dropdown-item:hover {
+  background: #f6b042;
+}
+
+.navbar-toggler {
+  height: 48px;
+}
+
+.navbar-toggler-icon {
+  display: block;
+  color: #f6b042;
+  margin-top: 13px;
+  border-top: 2px solid;
+  width: 20px;
+}
+
+.navbar-toggler-icon::after,
+.navbar-toggler-icon::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: currentColor;
+  margin-top: 5px;
+  transition: 0.3s;
+  position: relative;
+}
+
+#container-nav.active .navbar-toggler-icon {
+  border-top: none;
+}
+
+#container-nav.active .navbar-toggler-icon::before {
+  transform: rotate(135deg);
+}
+
+#container-nav.active .navbar-toggler-icon::after {
+  transform: rotate(-135deg);
+  top: -7px; /* Para alinhar o X. No entanto, precisa do position Relative em 
+                 .navbar-toggler-icon::after, .navbar-toggler-icon::before para funcionar */
+}
+
+.btn btn-outline-success my-2 my-sm-0 {
+  color: #f6b042;
+  background-color: #f6b042;
+  border-color: #f6b042;
+}
+
+#btn-mainpage {
+  opacity: 0;
+  position: fixed;
+  cursor: pointer;
+  margin-top: -17px;
+  left: 34px;
+  height: 40px;
+  width: 240px;
+}
+
+/*MAIN*/
+
+.carousel-inner a:hover {
+background: #f6b042;
+color: white;
+border-color: #533549;
+}
+
+#rowCards a{
+  background-color: #f6b042;
+  border-color: #533549;
+  color: #533549;
+  font-weight: bolder;
+}
+
+#rowCards a:hover{
+  color: white;
+}
+
+.card{
+  color: white;
+  border-color:#f6b042;
+  background-color: #533549;
+  text-transform: uppercase;
+  font-family: Cinzel, serif;
+  
+}
+
+.mb-5 button {
+  background-color:#f6b042;
+  color: #533549;
+  font-weight: bolder;
+  border-color: #533549;
+ 
+}
+
+.mb-5 button:hover{
+  background:#f6b042;
+}
+
+/*FOOTER*/
+
+.footer {
+  background: #533549;
+  color: white;
+  text-transform: uppercase;
+  font-family: Cinzel, serif;
+  font-size: 15px;
+  transition: all 350ms linear 0s;
+}
+
+.col-lg-5 img{
+    height: 60px;
+    margin-left: -22px;
+}
+
+.links ul {
+  list-style-type: none;
+}
+
+.links li a {
+  text-decoration: none;
+  color: white;
+}
+
+.links li a:hover {
+  text-decoration: none;
+  color: #f6b042;
+}
+
+.about-company i {
+  font-size: 25px;
+}
+
+.about-company a {
+  color: white;
+  transition: color 0.2s;
+}
+
+.about-company a:hover {
+  color: #f6b042;
+}
+
+.location i {
+  font-size: 18px;
+}
+.copyright p {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
