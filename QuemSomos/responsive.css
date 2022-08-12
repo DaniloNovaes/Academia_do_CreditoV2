@@ -1,5 +1,10 @@
 @media (max-width: 1000px){
 
+    
+    .cards{
+    width: 80%;
+   }
+    
     #btn-mobile{
         display: flex;
         padding: .5rem 1rem;
